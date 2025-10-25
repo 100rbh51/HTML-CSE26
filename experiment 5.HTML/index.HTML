@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Reistration</title>
+<body>
+
+<h2>Student Registration Form</h2>
+
+<form>
+  <label>Full Name:</label>
+  <input type="text" placeholder="Enter your full name" required><br>
+
+  <label>Email:</label>
+  <input type="email" placeholder="Enter valid email address" required><br>
+
+  <label>Password:</label>
+  <input type="password" placeholder="Enter password" required><br>
+
+  <label>Gender:</label>
+  <input type="radio" name="gender" value="male"> Male
+  <input type="radio" name="gender" value="female"> Female
+  <input type="radio" name="gender" value="other"> Other<br>
+
+  <label>Course:</label>
+  <select required>
+    <option>-- Select Course --</option
+        <option>B.Tech</option>
+    <option>BCA</option>
+    <option>BBA</option>
+    <option>MCA</option>
+  </select><br>
+
+  <label>Contact No:</label>
+  <input type="tel" placeholder="Enter phone number" required><br>
+
+  <label>Address:</label><br>
+  <textarea placeholder="Enter your address"></textarea><br>
+
+  <div class="buttons">
+    <input type="submit" value="Register">
+    <input type="reset" value="Clear">
+  </div>
+</form>
+
+</body>
+</html>
